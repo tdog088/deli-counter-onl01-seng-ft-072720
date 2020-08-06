@@ -13,7 +13,9 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(line, name)
+  line.push(name)
+  puts "Welcome, #{name}. You are number 
   
 end
 
